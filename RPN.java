@@ -5,7 +5,7 @@ public class RPN {
 		NodoPila nuevo_nodo = new NodoPila(nuevo_dato, arriba);
 		arriba = nuevo_nodo;
 	}
-	public double popPila( ) {
+	public double sacardatos( ) {
 		double dato_arriba = arriba.dato;
 		arriba = arriba.abajo;
 		return dato_arriba;
